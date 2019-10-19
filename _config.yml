@@ -11,7 +11,7 @@ github_repo: "https://github.com/alex102400/alex102400.github.io.git" # the code
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "Java老司机，特爱吹NB!"
 sidebar-avatar: /img/about-alex.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
@@ -99,10 +99,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "知乎",
+        title: "我的知乎",
         href: "https://www.zhihu.com/people/lixor"
-    },{
-        title: "简书·BY",
-        href: "http://www.jianshu.com/u/e71990ada2fd"
     }
 ]
