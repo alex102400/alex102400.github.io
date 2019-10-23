@@ -21,7 +21,9 @@ openssl生成自签证书或CA证书的资料非常多，例如：
 特别适用于自动化安装场景，例如docker的TSL安全设置。
 
 
-build-ca-cs-cert.sh <server-ip> <ca-password>
+### build-ca-cs-cert.sh <server-ip> <ca-password>
+
+
 ~~~
 SERVER="$1"
 PASSWORD="$2"
@@ -87,4 +89,7 @@ openssl x509 -in client-cert.pem -noout -text
   "tlskey": "/etc/docker/cert/server-key.pem"
 }
 ~~~
+
 3. systemctl restart docker
+
+
