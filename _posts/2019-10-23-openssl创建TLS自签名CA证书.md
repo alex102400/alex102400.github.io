@@ -93,3 +93,5 @@ openssl x509 -in client-cert.pem -noout -text
 3. systemctl restart docker
 
 
+******
+
